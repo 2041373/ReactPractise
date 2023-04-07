@@ -1,0 +1,13 @@
+Props is short for properties 
+
+what are props used for: 
+- a way to pass data between components 
+- if you had a parent and child component, it would allow to pass data through them for example (newsfeed and posts)
+
+State: 
+- a state can be seen as the hinges/ pillars of the componet
+- a state contains a data that affects the behabiour of the class/ compoennt and its children 
+- all the data used in the compoenent / class will be held in the state object 
+- it is usually to dictate the rendering of the application 
+- for example: if you are creaitng a counter, and you have a state of count: 0, the methods to increase the counter will go into the state, point to count and add 1 to the count each time and to reduce the count, the methods will go into the state object,  point to count, point to count and reduce it by 1.
+
