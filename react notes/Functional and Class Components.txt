@@ -1,0 +1,16 @@
+Function Component: 
+- quick, easy and swift 
+- functional 
+- use props 
+- idela for simple components 
+
+functional component in action 
+- declare 
+- props can be added as an argument 
+- it does something and thats it 
+
+Class Component: 
+- more features and more complex
+- desires importance 
+- use states 
+- better for multi talent components (that have a lot going)

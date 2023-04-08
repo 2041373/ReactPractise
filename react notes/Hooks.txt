@@ -1,0 +1,39 @@
+Hooks 
+
+Usestate: 
+- Is not just used in class components but also functional components 
+- allows you to add state to a functional component 
+- before, states were only for class components but this revolutionised the way react works 
+
+Use State in action: 
+- import {useState}
+- declare it under the function 
+- and then manipulate as you wish 
+
+UseEffect: 
+- a hook that allows you to manage 'side effects'
+- useEffect is called every time the compoenent rerenders 
+- the first parameter is useEffect is the method that will be executed after every render 
+- the second parameter in useEffect is a dependency, so if something changes in that dependency then only the method in the useEffect will run 
+
+UseEffect in Action: 
+- first import it 
+- then declare it under the function 
+- then use it how you wish 
+    - either make it dependent upon the change of a state 
+    - or make it dependent upon the rendering of the compoenent 
+    - up to you 
+
+// hooks are always declared under the function; or it wont be understood 
+
+useContext: 
+- a hook used to share values 
+- similar to props 
+- simple 
+
+useContext in action: 
+- first declare the context 
+- then create a provider wiht a value as a parameter 
+- then use the context from inside the child component of the provider 
+- and then do what you want with the value 
+
