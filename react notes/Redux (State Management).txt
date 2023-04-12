@@ -1,0 +1,20 @@
+Redux (State Managment)
+
+What is Redux? 
+- it is a state Managmentlibrary for react 
+- it provides a predictable and centralised way to manage the state of an applicaiton 
+
+3 principles of redux: 
+- single source of truth: the state of an applicaton is stored in a single JavaScript object called the state tree
+- state is read-only: the only way to change the state is by dispatching an action 
+- changes are made with pure functions: reducers take the previous state and an action, and return the next state 
+
+benefits of redux 
+- predictable state management 
+- easier debugging and testing 
+- centralised state makes it easier to reason about the application 
+
+when to use redux 
+- large applciations with complex state management 
+- applications with mnay compoenents that need to share data 
+- applications that require undo/redo funcationality
